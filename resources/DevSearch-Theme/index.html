@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+  <!-- Icon - IconMonster -->
+  <link rel="stylesheet" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css" />
+  <!-- Mumble UI -->
+  <link rel="stylesheet" href="uikit/styles/uikit.css" />
+  <!-- Dev Search UI -->
+  <link rel="stylesheet" href="styles/app.css" />
+
+  <title>DevSearch - Connect with Developers!</title>
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <div class="container container--narrow">
+      <a href="/" class="header__logo">
+        <img src="images/logo.svg" alt="DevSearch Logo" />
+      </a>
+      <nav class="header__nav">
+        <input type="checkbox" id="responsive-menu" />
+        <label for="responsive-menu" class="toggle-menu">
+          <span>Menu</span>
+          <div class="toggle-menu__lines"></div>
+        </label>
+        <ul class="header__menu">
+          <li class="header__menuItem"><a href="index.html">Developers</a></li>
+          <li class="header__menuItem"><a href="projects.html">Projects</a></li>
+          <li class="header__menuItem"><a href="inbox.html">Inbox</a></li>
+          <li class="header__menuItem"><a href="account.html">My Account</a></li>
+          <li class="header__menuItem"><a href="login.html" class="btn btn--sub">Login/Sign Up</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Section -->
+  <main class="home">
+    <section class="hero-section text-center">
+      <div class="container container--narrow">
+        <div class="hero-section__box">
+          <h2>CONNECT WITH <span>DEVELOPERS</span></h2>
+          <h2>FROM AROUND THE WORLD</h2>
+        </div>
+
+        <div class="hero-section__search">
+          <form class="form" action="#" method="get">
+            <div class="form__field">
+              <label for="formInput#search">Search Developers </label>
+              <input class="input input--text" id="formInput#search" type="text" name="text"
+                placeholder="Search by developer name" />
+            </div>
+
+            <input class="btn btn--sub btn--lg" type="submit" value="Search" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Search Result: DevList -->
+    <section class="devlist">
+      <div class="container">
+        <div class="grid grid--three">
+          <div class="column card">
+            <div class="dev">
+              <a href="/profile.html" class="card__body">
+                <div class="dev__profile">
+                  <img class="avatar avatar--md" src="https://scontent.fhan2-4.fna.fbcdn.net/v/t39.30808-6/178211425_1006637056843049_4903361954556638656_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=174925&_nc_ohc=deR6WUyn8B4AX8iCM2O&_nc_ht=scontent.fhan2-4.fna&oh=00_AfC6H7AnVRoqZAfJS4IVOe64zUFrmf56xx7O5BwTibDc4Q&oe=642F07C7" alt="image" />
+                  <div class="dev__meta">
+                    <h3>Cao Dũng</h3>
+                    <h5>FullStack Web Designer & Developer</h5>
+                  </div>
+                </div>
+                <p class="dev__info">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, ducimus inventore! Sunt,
+                  veniam veritatis? Veritatis placeat, deleniti iure tempore veniam perspiciatis, soluta cupiditate
+                  animi, exercitationem molestias nam doloremque architecto odit.
+                </p>
+                <div class="dev__skills">
+                  <span class="tag tag--pill tag--main">
+                    <small>JavaScript</small>
+                  </span>
+                  <span class="tag tag--pill tag--main">
+                    <small>React</small>
+                  </span>
+                  <span class="tag tag--pill tag--main">
+                    <small>SCSS</small>
+                  </span>
+                  <span class="tag tag--pill tag--main">
+                    <small>Nodejs</small>
+                  </span>
+                  <span class="tag tag--pill tag--main">
+                    <small>Express</small>
+                  </span>
+                  <span class="tag tag--pill tag--main">
+                    <small>GraphQL</small>
+                  </span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="column card">
+            <div class="dev">
+              <a href="/profile.html" class="card__body">
+                <div class="dev__profile">
+                  <img class="avatar avatar--md" src="https://scontent.fhan2-5.fna.fbcdn.net/v/t1.6435-9/107827423_290311552084789_1394292014342474647_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=174925&_nc_ohc=yrKvrmwNXJkAX8Lql24&_nc_ht=scontent.fhan2-5.fna&oh=00_AfCFy2UrswkLxtnXwSsFtkP6LGSFWDBjOx0LRhCEf1tCOw&oe=6450E422" alt="image" />
+                  <div class="dev__meta">
+                    <h3>Tiến Hải Nguyễn</h3>
+                    <h5>React Developer</h5>
+                  </div>
+                </div>
+                <p class="dev__info">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, ducimus inventore! Sunt,
+                  veniam veritatis? Veritatis placeat, deleniti iure tempore veniam perspiciatis, soluta cupiditate
+                  animi, exercitationem molestias nam doloremque architecto odit.
+                </p>
+                <div class="dev__skills">
+                  <span class="tag tag--pill tag--main">
+                    <small>Elixir</small>
+                  </span>
+                  <span class="tag tag--pill tag--main">
+                    <small>F#</small>
+                  </span>
+                  <span class="tag tag--pill tag--main">
+                    <small>.NET</small>
+                  </span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="column card">
+            <div class="dev">
+              <a href="/profile.html" class="card__body">
+                <div class="dev__profile">
+                  <img class="avatar avatar--md" src="https://scontent.fhan2-3.fna.fbcdn.net/v/t1.18169-9/12313694_107932712909476_8560713260513857439_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Sf7H7USpU4MAX_06eJP&_nc_ht=scontent.fhan2-3.fna&oh=00_AfBWkoP4uJR80cSIRyrJ9quEwzzY6FQDGKt_kKE4_V8KhA&oe=6451164F" alt="image" />
+                  <div class="dev__meta">
+                    <h3>Đạt Nguyễn</h3>
+                    <h5>Python & Django Developer</h5>
+                  </div>
+                </div>
+                <p class="dev__info">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, ducimus inventore! Sunt,
+                  veniam veritatis? Veritatis placeat, deleniti iure tempore veniam perspiciatis, soluta cupiditate
+                  animi, exercitationem molestias nam doloremque architecto odit.
+                </p>
+                <div class="dev__skills">
+                  <span class="tag tag--pill tag--main">
+                    <small>Python</small>
+                  </span>
+                  <span class="tag tag--pill tag--main">
+                    <small>Django</small>
+                  </span>
+                  <span class="tag tag--pill tag--main">
+                    <small>Rest API</small>
+                  </span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- <div class="column card">
+            <div class="dev">
+              <a href="/profile.html" class="card__body">
+                <div class="dev__profile">
+                  <img class="avatar avatar--md" src="https://scontent.fhan2-3.fna.fbcdn.net/v/t1.18169-9/12313694_107932712909476_8560713260513857439_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Sf7H7USpU4MAX_06eJP&_nc_ht=scontent.fhan2-3.fna&oh=00_AfBWkoP4uJR80cSIRyrJ9quEwzzY6FQDGKt_kKE4_V8KhA&oe=6451164F" alt="image" />
+                  <div class="dev__meta">
+                    <h3>Đạt Nguyễn</h3>
+                    <h5>FullStack Web Designer & Developer</h5>
+                  </div>
+                </div>
+                <p class="dev__info">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, ducimus inventore! Sunt,
+                  veniam veritatis? Veritatis placeat, deleniti iure tempore veniam perspiciatis, soluta cupiditate
+                  animi, exercitationem molestias nam doloremque architecto odit.
+                </p>
+                <div class="dev__skills">
+                  <span class="tag tag--pill tag--main">
+                    <small>JavaScript</small>
+                  </span>
+                  <span class="tag tag--pill tag--main">
+                    <small>React</small>
+                  </span>
+                  <span class="tag tag--pill tag--main">
+                    <small>SCSS</small>
+                  </span>
+                </div>
+              </a>
+            </div>
+          </div> -->
+          <!-- <div class="column card">
+            <div class="dev">
+              <a href="/profile.html" class="card__body">
+                <div class="dev__profile">
+                  <img class="avatar avatar--md" src="https://scontent.fhan2-3.fna.fbcdn.net/v/t1.18169-9/12313694_107932712909476_8560713260513857439_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Sf7H7USpU4MAX_06eJP&_nc_ht=scontent.fhan2-3.fna&oh=00_AfBWkoP4uJR80cSIRyrJ9quEwzzY6FQDGKt_kKE4_V8KhA&oe=6451164F" alt="image" />
+                  <div class="dev__meta">
+                    <h3>Đạt Nguyễn</h3>
+                    <h5>FullStack Web Designer & Developer</h5>
+                  </div>
+                </div>
+                <p class="dev__info">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, ducimus inventore! Sunt,
+                  veniam veritatis? Veritatis placeat, deleniti iure tempore veniam perspiciatis, soluta cupiditate
+                  animi, exercitationem molestias nam doloremque architecto odit.
+                </p>
+                <div class="dev__skills">
+                  <span class="tag tag--pill tag--main">
+                    <small>JavaScript</small>
+                  </span>
+                  <span class="tag tag--pill tag--main">
+                    <small>React</small>
+                  </span>
+                  <span class="tag tag--pill tag--main">
+                    <small>SCSS</small>
+                  </span>
+                </div>
+              </a>
+            </div>
+          </div> -->
+          <!-- <div class="column card">
+            <div class="dev">
+              <a href="/profile.html" class="card__body">
+                <div class="dev__profile">
+                  <img class="avatar avatar--md" src="https://scontent.fhan2-3.fna.fbcdn.net/v/t1.18169-9/12313694_107932712909476_8560713260513857439_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Sf7H7USpU4MAX_06eJP&_nc_ht=scontent.fhan2-3.fna&oh=00_AfBWkoP4uJR80cSIRyrJ9quEwzzY6FQDGKt_kKE4_V8KhA&oe=6451164F" alt="image" />
+                  <div class="dev__meta">
+                    <h3>Đạt Nguyễn</h3>
+                    <h5>FullStack Web Designer & Developer</h5>
+                  </div>
+                </div>
+                <p class="dev__info">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, ducimus inventore! Sunt,
+                  veniam veritatis? Veritatis placeat, deleniti iure tempore veniam perspiciatis, soluta cupiditate
+                  animi, exercitationem molestias nam doloremque architecto odit.
+                </p>
+                <div class="dev__skills">
+                  <span class="tag tag--pill tag--main">
+                    <small>JavaScript</small>
+                  </span>
+                  <span class="tag tag--pill tag--main">
+                    <small>React</small>
+                  </span>
+                  <span class="tag tag--pill tag--main">
+                    <small>SCSS</small>
+                  </span>
+                </div>
+              </a>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="pagination">
+      <ul class="container">
+        <li><a href="#" class="btn btn--disabled">&#10094; Prev</a></li>
+        <li><a href="#" class="btn btn--sub">01</a></li>
+        <li><a href="#" class="btn">02</a></li>
+        <li><a href="#" class="btn">03</a></li>
+        <li><a href="#" class="btn">04</a></li>
+        <li><a href="#" class="btn">05</a></li>
+        <li><a href="#" class="btn">06</a></li>
+        <li><a href="#" class="btn">07</a></li>
+        <li><a href="#" class="btn">08</a></li>
+        <li><a href="#" class="btn">09</a></li>
+        <li><a href="#" class="btn">10</a></li>
+        <li><a href="#" class="btn">Next &#10095;</a></li>
+      </ul>
+    </div>
+  </main>
+</body>
+
+</html>
